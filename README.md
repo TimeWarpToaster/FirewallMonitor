@@ -57,7 +57,7 @@ The default of 100,000 is normally large enough to handle all events in the orig
 
 ### Instance Name
 
-Pairs with Multi-Instance. An instance, is the case of you running the app. If you open it again while it is running, you have two-instances. Instance Name is used to further define what an instance actually is. Under normal conditions, it is bad to run the same exact console, on the same exact files, simultaneously. However, if you want to run two copies of the software, on different data, simultaneously, there is no conflict. Under this condition, you can set a different instance name in the settings of one copy, run both, without violating Multi-Instance=False. This is a deliberate work-around, to a common-sense safety railing.
+Pairs with Multi-Instance. An instance, is the case of you running the app. If you open it again while it is running, you have two-instances. Instance Name is used to further define what an instance actually is. Under normal conditions, it is bad to run the same exact console, on the same exact files, simultaneously. However, if you want to run two copies of the software, on different data, simultaneously, there is no conflict. Under this condition, you can set a different instance name in the settings of one copy, and run both, without violating Multi-Instance=False. This is a deliberate work-around, to a common-sense safety railing.
 
 
 ### Multi-Instance?
@@ -74,7 +74,7 @@ Approving an IP is something you may want to do for your own equipment (assuming
 
 ### Event Folder
 
-The most important setting. This is the path where your OS event files are. The app is preconfigured to a common default location on some systems. It is entirely reasonable, to not want to read directly off the running log. If you run a script to copy the Security.evtx file to a working folder, this allows you to point to the working folder. Regardless, the path must contain the security file you intend to monitor. Note the trailing slash (\). Any folder must end with a slash.
+The most important setting. This is the path where your OS event files are. The app is preconfigured to a common default location on some systems. It is entirely reasonable, to not want to read directly off the running log. If you run a script to copy the Security.evtx file to a working folder, this allows you to point to the working folder. Regardless, the path must contain the security file you intend to monitor. Note the trailing slash (\\). Any folder must end with a slash.
 
 
 ### Report File Prefix
