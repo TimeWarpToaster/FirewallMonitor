@@ -28,22 +28,22 @@ When complete, your Client Run Folder should look like this:
 <img src="./images/ClientRunFolder/ClientRunFolder.png" />
 <br />
 <br />
-**Data Folder**
+Data Folder
 <br />
 <img src="./images/ClientRunFolder/DataFolder.png" />
 <br />
 Note, my Data folder has an appSettings.bin file in it. If you do not have one, run the Viewer app to create default or custom settings. Only the viewer can create settings, and they must exist before the Client (console) can run properly.
 <br />
 <br />
-**Exports Folder** (optional, empty, and not-shown)
+Exports Folder (optional, empty, and not-shown)
 <br />
 <br />
-**Logs Folder**
+Logs Folder
 <br />
 <img src="./images/ClientRunFolder/LogsFolder.png" />
 <br />
 <br />
-**Reports Folder**
+Reports Folder
 <br />
 <img src="./images/ClientRunFolder/ReportsFolder.png" />
 <br />
