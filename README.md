@@ -113,7 +113,7 @@ How long should a firewall rule exist, before being unblocked? Also in minutes, 
 <br />
 <br />
 
-## Bug List
+## Questions And Limitations
 
 ### Deactivated rule not reactivating
 Manually deactivated rules are never recreated. This is deliberate for now.
