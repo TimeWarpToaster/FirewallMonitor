@@ -21,7 +21,7 @@ Interacting with the firewall and event logs is an administrative capacity. Both
 3) Launch the viewer app first. This ensures a settings file is generated in the data folder that uses safe defaults.
 4) Use the &quot;Settings&quot; tab, to make any adjustments. By default, firewall management is turned off. It is recommended to run with firewall management off at-first, until you have a chance to see what your failed login counts look like.
 5) Save any settings changes at the bottom of the tab, and close the Viewer app.
-6) Run the Client (console) app, and allow it to finish, which should take anywhere from a few seconds to a few minutes, depending upon how much volume exists, and whether or not you decided to manage the firewall now. Note: if you set &quot;Is Headless?&quot; to false in the Settings tab, the console will remain open so you can see what it posted. Alternatively, you can look in ./Logs/Client to view the same information.
+6) Run the Client (console) app, and allow it to finish, which should take anywhere from a few seconds to a couple minutes, depending upon how much volume exists, and whether or not you decided to manage the firewall now. Note: if you set &quot;Is Headless?&quot; to false in the Settings tab, the console will remain open so you can see what it posted. Alternatively, you can look in ./Logs/Client to view the same information.
 7) Open the Viewer app, and use the Data View tab to view recent login failures. The default query is to look back 30-days, with an option to adjust this. If you were managing the firewall, any new rules generated will be shown on the "Firewall Rules" tab.
 
 
@@ -39,7 +39,7 @@ This is where all files and folders for application data, logs, reports, and etc
 
 Flat file logs are ordinarily generated in the ./Logs/Client and ./Logs/Viewer folders of the base directory. These logs include information concerning IPs, blocks, and firewall rules being monitored. Setting False, will disable these logs.
 
-<br />
+
 ### Enable Automatic Report
 
 The Client console app generates a report file in ./Reports/Client of the base directory. These reports contain IPs, blocks, counts, and firewall rules being monitored. Setting False, will disable automatic reporting. Exports are still possible from the Viewer.
