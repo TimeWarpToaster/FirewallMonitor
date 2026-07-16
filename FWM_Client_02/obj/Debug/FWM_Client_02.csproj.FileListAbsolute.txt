@@ -1,0 +1,8 @@
+D:\FWM\FWM_Client_02\bin\Debug\FWM_Client_02.exe
+D:\FWM\FWM_Client_02\bin\Debug\FWM_Client_02.pdb
+D:\FWM\FWM_Client_02\bin\Debug\Newtonsoft.Json.dll
+D:\FWM\FWM_Client_02\bin\Debug\Newtonsoft.Json.xml
+D:\FWM\FWM_Client_02\obj\Debug\FWM_Client_02.csproj.CoreCompileInputs.cache
+D:\FWM\FWM_Client_02\obj\Debug\FWM_Client_02.csproj.CopyComplete
+D:\FWM\FWM_Client_02\obj\Debug\FWM_Client_02.exe
+D:\FWM\FWM_Client_02\obj\Debug\FWM_Client_02.pdb
