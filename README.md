@@ -2,7 +2,7 @@
 Windows monitor that tracks failed logins, and adds and removes firewall rules based upon settings.
 
 
-# How-To Use - 2026-07-16
+# How-To Use - 2026-07-25
 
 ## Who Benefits From Using Firewall Monitor?
 Small independents, whether individuals or businesses. The inherent factor is trust. This app is of little use, if you do not trust those with access. In an otherwise secure machine, this app is designed to record login-failures, including timestamps, username failed, and originating ip. From these, various counts are derived. The only information unique to this app, are the counts, and the duration records are held for. All other information originates from the system. In a compromise, the data can be compromised, but the point is to avoid being compromised. This data already exists, floating about the system.
@@ -33,11 +33,11 @@ Some help is available in the Viewer app, on the Settings tab. This is a more ex
 ### Days To Keep Data
 
 The subject is more complex. Days To Keep Data represents the minimum amount of time data should be kept for. In general, records will automatically be removed when they age beyond this date. An exception are the most essential components of managing active firewall rules. If a rule created by the app exists, and is valid and being managed by the app, firewall, IP, and IP block information is retained per normal. Individual events relating to the rule are aged, representing a majority of the data-load, but functionality to manage the rule remains. When the rule expires on its own, or gets deactivated, remaining cleanup is performed on the next execution of the client.
-
+<!--
 
 ### Base Directory
 
-This is where all files and folders for application data, logs, reports, and etcetera are located. The only purpose of base directory, is if you want to store your executables separate from data. Base directory points to the data, and its associated folders.
+This is where all files and folders for application data, logs, reports, and etcetera are located. The only purpose of base directory, is if you want to store your executables separate from data. Base directory points to the data, and its associated folders.-->
 
 
 ### Enable File Logging
@@ -128,10 +128,8 @@ How long should a firewall rule exist, before being unblocked? Also in minutes, 
 Manually deactivated rules are never recreated. This is deliberate for now.
 
 ### Read the wrong folder, now have unwanted data
-If the Event Folder is set to a path with a valid .evtx file, that is not the correct folder - for instance, you successfully read a path and it is not the right one, the simplest thing to do is reset the app data manually. In the Data directory of Client Run Folder, are the app files. At the expense of clearing any known-data, you can safely delete everything but the appSettings.bin file (which should stay). Data files will be started fresh on next-run. Resetting the app this way can be useful, if you are analyzing files from different sources. Depending on how thorough you need to be, you can also safely go into the subfolders for Logs and Reports, to delete any files created (folders should stay for now).
+If the Event Folder is set to a path with a valid .evtx file, that is not the correct folder - for instance, you successfully read a path and it is not the right one, the simplest thing to do is reset the app data manually. In the ./Data directory of Client Run Folder, are the app files. At the expense of clearing any known-data, you can safely delete everything. Data files will be started fresh on next-run. Resetting the app this way can be useful, if you are analyzing files from different sources. Depending on how thorough you need to be, you can also safely go into the subfolders for Logs and Reports, to delete any files created (folders should stay for now).
 
 ### Firewall rules expiring and reactivating without new offense
 When managing the firewall, the setting for "Expire After Minutes", must (necessarily) be larger than "Firewall Minutes To Review". We do not disqualify event records, they either fall in the scan window or not. If expiring after 5-minutes, and reviewing 1-week, the app will create rules, expire them 5-minutes later, find the same valid events on next-run, and recreate the rules. 
 
-### Lacks data aging
-There is no data-aging. Currently, records are forever until their data-files are manually removed. If the app is run, with manage firewall enabled, and is automated to run regularly, the actual data-load is low. The first run, will block any mass-offenders, and subsequent runs typically find little to do. In my experience, this improves over the matter of several days. However, mass volumes of records are possible, particularly in a mode of observing traffic only (manage firewall off). Failed logins can accrue at over 100,000 per day depending upon the scenario. If you are using this app in a mass-volume, no defence scenario, either do not automate, or be willing to reset data at regular intervals. If you feel a bog-down is occurring, you should be able to identify issues if the Viewer is slow to load, or by using the Viewer to run a data query over a time-period long-enough to include everything. 
