@@ -14,7 +14,7 @@ This application is intended to run predominantly in an already secure
 setting. That said, if you do find what you consider to be a security 
 vulnerability, please make report to:
 
-[buzyngb@gmail.com](mailto:buzyngb@gmail.com)
+<a href="mailto:buzyngb@gmail.com">buzyngb@gmail.com</a>
 
 Any specific information you can provide, would be appreciated.
 
