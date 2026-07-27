@@ -1,4 +1,8 @@
-﻿
+﻿//Firewall Monitor v04
+//(c) 2026 - TimeWarpToaster
+
+//https://www.gnu.org/licenses/gpl-3.0.html
+
 namespace FWM_ClientViewer_03
 {
     partial class PopupProgress

@@ -1,7 +1,11 @@
-﻿using System;
+﻿//Firewall Monitor v04
+//(c) 2026 - TimeWarpToaster
+
+//https://www.gnu.org/licenses/gpl-3.0.html
+
+using System;
 using System.Diagnostics.Eventing.Reader;
 using System.IO;
-//using System.Net.Sockets; // For whois
 using System.Text;
 using System.Xml;
 

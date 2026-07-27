@@ -3,6 +3,7 @@ D:\FWM\FWM_ClientViewer_03\bin\Debug\FWM_ClientViewer_03.exe
 D:\FWM\FWM_ClientViewer_03\bin\Debug\FWM_ClientViewer_03.pdb
 D:\FWM\FWM_ClientViewer_03\bin\Debug\Newtonsoft.Json.dll
 D:\FWM\FWM_ClientViewer_03\bin\Debug\Newtonsoft.Json.xml
+D:\FWM\FWM_ClientViewer_03\obj\Debug\FWM_ClientViewer_03.csproj.AssemblyReference.cache
 D:\FWM\FWM_ClientViewer_03\obj\Debug\FWM_ClientViewer_03.PopupProgress.resources
 D:\FWM\FWM_ClientViewer_03\obj\Debug\FWM_ClientViewer_03.Properties.Resources.resources
 D:\FWM\FWM_ClientViewer_03\obj\Debug\FWM_ClientViewer_03.csproj.GenerateResource.cache

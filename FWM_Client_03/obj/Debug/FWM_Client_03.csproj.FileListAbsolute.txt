@@ -2,6 +2,7 @@ D:\FWM\FWM_Client_03\bin\Debug\FWM_Client_03.exe
 D:\FWM\FWM_Client_03\bin\Debug\FWM_Client_03.pdb
 D:\FWM\FWM_Client_03\bin\Debug\Newtonsoft.Json.dll
 D:\FWM\FWM_Client_03\bin\Debug\Newtonsoft.Json.xml
+D:\FWM\FWM_Client_03\obj\Debug\FWM_Client_03.csproj.AssemblyReference.cache
 D:\FWM\FWM_Client_03\obj\Debug\FWM_Client_03.csproj.CoreCompileInputs.cache
 D:\FWM\FWM_Client_03\obj\Debug\FWM_Client_03.csproj.CopyComplete
 D:\FWM\FWM_Client_03\obj\Debug\FWM_Client_03.exe

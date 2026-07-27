@@ -70,5 +70,8 @@
     <Compile Include="UName.cs" />
     <Compile Include="XRFSum.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
